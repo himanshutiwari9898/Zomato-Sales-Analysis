@@ -8,30 +8,30 @@ It goes beyond basic SQL queries and focuses on business-driven insights, scalab
 The goal is simple:
 Answer real business questions using clean data modeling and advanced SQL.
 
-🧠 Key Objectives
-## Design a production-grade relational schema
-## Perform advanced SQL analysis (window functions, CTEs, trends)
-## Analyze customer behavior, restaurant performance, and revenue drivers
-## Identify growth, churn, and optimization opportunities
+## 🧠 Key Objectives
+#### Design a production-grade relational schema
+#### Perform advanced SQL analysis (window functions, CTEs, trends)
+#### Analyze customer behavior, restaurant performance, and revenue drivers
+#### Identify growth, churn, and optimization opportunities
 
-🗂️ Dataset & Schema Design
-The project uses a star-schema-inspired design with fact and dimension tables.
-Core Tables
-users – customer demographics
-restaurants – restaurant metadata
-food_items – veg / non-veg classification
-menu – pricing and cuisine mapping
-orders – transactional order data
-order_items – item-level order details
-ratings – time-based restaurant ratings
+## 🗂️ Dataset & Schema Design
+#### The project uses a star-schema-inspired design with fact and dimension tables.
+#### Core Tables
+#### users – customer demographics
+#### restaurants – restaurant metadata
+#### food_items – veg / non-veg classification
+#### menu – pricing and cuisine mapping
+#### orders – transactional order data
+#### order_items – item-level order details
+#### ratings – time-based restaurant ratings
 
-This structure enables:
-Time-series analysis
-Customer Lifetime Value (LTV)
-Revenue attribution
-Rating vs sales correlation
+## This structure enables:
+#### Time-series analysis
+#### Customer Lifetime Value (LTV)
+#### Revenue attribution
+#### Rating vs sales correlation
 
-📊 Business Questions Answered
+## 📊 Business Questions Answered
 Customer Analytics
 Repeat order rate per user
 Customer churn (inactive users)
