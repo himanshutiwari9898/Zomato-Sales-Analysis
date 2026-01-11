@@ -9,10 +9,10 @@ The goal is simple:
 Answer real business questions using clean data modeling and advanced SQL.
 
 🧠 Key Objectives
-Design a production-grade relational schema
-Perform advanced SQL analysis (window functions, CTEs, trends)
-Analyze customer behavior, restaurant performance, and revenue drivers
-Identify growth, churn, and optimization opportunities
+## Design a production-grade relational schema
+## Perform advanced SQL analysis (window functions, CTEs, trends)
+## Analyze customer behavior, restaurant performance, and revenue drivers
+## Identify growth, churn, and optimization opportunities
 
 🗂️ Dataset & Schema Design
 The project uses a star-schema-inspired design with fact and dimension tables.
