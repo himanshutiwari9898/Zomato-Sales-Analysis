@@ -19,11 +19,9 @@ Answer real business questions using clean data modeling and advanced SQL.
 #### Core Tables
 #### users – customer demographics
 #### restaurants – restaurant metadata
-#### food_items – veg / non-veg classification
+#### food – veg / non-veg classification
 #### menu – pricing and cuisine mapping
 #### orders – transactional order data
-#### order_items – item-level order details
-#### ratings – time-based restaurant ratings
 
 ## This structure enables:
 #### Time-series analysis
@@ -66,13 +64,11 @@ Answer real business questions using clean data modeling and advanced SQL.
 #### Zomato-Analytics/
 #### │
 #### ├── data/
-#### │   ├── users.csv
-#### │   ├── restaurants.csv
-#### │   ├── food_items.csv
+#### │   ├── food.csv
 #### │   ├── menu.csv
 #### │   ├── orders.csv
-#### │   ├── order_items.csv
-#### │   └── ratings.csv
+#### │   ├── restaurant.csv
+#### │   └── users.csv
 #### │
 #### ├── sql/
 #### │   ├── basic_analysis.sql
