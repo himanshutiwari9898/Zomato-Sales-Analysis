@@ -75,9 +75,8 @@ Answer real business questions using clean data modeling and advanced SQL.
 #### │   └── ratings.csv
 #### │
 #### ├── sql/
-#### │   ├── schema.sql
-#### │   ├── kpi_queries.sql
-#### │   └── advanced_analysis.sql
+#### │   ├── basic_analysis.sql
+#### │   └── advance_analysis.sql
 #### │
 #### ├── README.md
 #### └── analysis.md
